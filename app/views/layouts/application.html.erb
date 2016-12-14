@@ -13,16 +13,16 @@
       <%= link_to root_path, class: 'logo' do %>
         <div class="circle">
           <br />
-          Friendship
+          You need
           <br />
-          is a
+          to learn
           <br />
-          Gift
+          to cook
       </div>
       <% end %>
     </div>
     <div class="col-xs-4 hidden-xs slogan">
-      Splurting out unsolicited advice about friendship since 2016
+      Splurting out unsolicited advice about cooking since 2016
     </div>
     <div class="col-xs-5 links">
       <!-- Button trigger modal -->
@@ -43,9 +43,9 @@
         </div>
         <%= simple_form_for Quote.new do |f| %>
           <div class="modal-body">
-            <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "Love is the only force capable of transforming an enemy into a friend." %>
+            <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "You burn an empty pot!" %>
             <br />
-            <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Martin Luther King, Jr." %>
+            <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Haley Mnatzaganian." %>
           </div>
           <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
