@@ -1,28 +1,19 @@
-== README
+# Splurty
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Splurty is a Ruby on Rails application with mobile-first design that allows users to submit and randomly view quotes about cooking.[Check it out here.](https://splurty-haley-mnatzaganian.herokuapp.com/)
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+* PostgreSQL
+* Bootstrap
+* Simple Form
 
-* System dependencies
+## Usage
 
-* Configuration
+Contribute a quote to the database using the "Contribute" modal.
 
-* Database creation
+View randomly selected quotes by refreshing the page or clicking the "This isn't enough, I need another!" button.
 
-* Database initialization
+## Versioning
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Rails 4.1.9
